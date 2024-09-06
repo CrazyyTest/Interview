@@ -8,5 +8,10 @@ public class GitCommand {
         System.out.println("git status");
         //        To see all commits we can use next command
         System.out.println("git log");
+        System.out.println("To check changes in every commit we can use next command:" +
+                //    the * symbol is only used to highlight something
+                "git show (and enter the first four unique hash)");
+//        to add change in the last added commit we would use the next command
+        System.out.println("git commit --amend -m 'comment with changes'");
     }
 }
